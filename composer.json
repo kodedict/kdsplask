@@ -1,0 +1,27 @@
+{
+    "name": "kodedict/kdsplask",
+    "description": "A PHP Framework",
+    "authors": [
+        {
+            "name": "olumayokun olayinka",
+            "email": "devs@kodedict.com"
+        }
+    ],
+    "type": "project",
+    "license": "MIT",
+    "require": {
+        "php": "^8.0",
+        "symfony/dotenv": "^5.2",
+        "ext-json": "*",
+      "ext-dom": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Kdsplask\\": "Kdsplask/"
+        },
+        "files": [
+            "Kdsplask/src/helpers.php"
+        ]
+    }
+}
